@@ -1,4 +1,5 @@
 export const Card = ({financialData, removeFinancialData}) => {
+    
     return (
         <li style= {{borderLeft: financialData.state === 'Entrada' ? '4px solid var(--color-secondary-01)' : '4px solid var(--color-grey-02)'}}>
             <div className="card_title-state">
@@ -19,4 +20,5 @@ export const Card = ({financialData, removeFinancialData}) => {
             </div>
         </li>
     )
+    
 }
